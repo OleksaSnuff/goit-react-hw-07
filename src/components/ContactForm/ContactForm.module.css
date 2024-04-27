@@ -1,0 +1,18 @@
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
+.form > input {
+  border-radius: 8px;
+  outline: none;
+  width: 300px;
+  height: 35px;
+  font-size: 16px;
+}
+.form > input:hover,
+.form > input:focus {
+  border-color: #646cff;
+}
